@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Internal;
+using UnityEditor.ShaderGraph; // this seems to be getting in the way of the build, but taking it out causes more errors!
 using UnityEngine;
 using UnityEngine.Profiling;
 using Random = UnityEngine.Random;
